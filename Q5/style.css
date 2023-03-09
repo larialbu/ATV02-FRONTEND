@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"] {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #resultado {
+    margin-top: 10px;
+  }
+
+  .erro {
+    color: red;
+    margin-bottom: 5px;
+  }

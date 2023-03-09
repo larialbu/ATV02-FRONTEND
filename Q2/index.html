@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Validação de nome de usuário e senha</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- 
+        Faça um programa que leia um nome de usuário e a sua 
+        senha e não aceite a senha igual ao nome do usuário, 
+        mostrando uma mensagem de erro e voltando a pedir as 
+        informações. 
+     -->
+    <div class="container">
+        <h1>Validação de nome de usuário e senha</h1>
+        
+        <form id="form" method="post">
+            <label for="username">Nome de usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div id="error-message"></div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>

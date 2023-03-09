@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>População dos países</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--      
+    Supondo que a população de um país A seja da ordem de 80000 habitantes 
+    com uma taxa anual de crescimento de 3% e que a população de B seja 200000 
+    habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule 
+    e escreva o número de anos necessários para que a população do país A 
+    ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
+     -->
+    <h1>População dos países</h1>
+    <form>
+      <label for="populacao-a">População do país A:</label>
+      <input type="text" id="populacao-a" placeholder="80000">
+      <label for="taxa-a">Taxa de crescimento do país A (em %):</label>
+      <input type="text" id="taxa-a" placeholder="3">
+      <label for="populacao-b">População do país B:</label>
+      <input type="text" id="populacao-b" placeholder="200000">
+      <label for="taxa-b">Taxa de crescimento do país B (em %):</label>
+      <input type="text" id="taxa-b" placeholder="1.5">
+      <button type="button" onclick="calcularAnos()">Calcular</button>
+    </form>
+    <div id="resultado"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
